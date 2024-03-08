@@ -7,7 +7,7 @@ import Footer from './components/footer/Footer'
 import Home from './components/home/Home'
 
 function App() {
-  const [count, setCount] = usejState(0)
+  const [count, setCount] = useState(0)
 
   return (
     <>
