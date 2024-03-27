@@ -5,13 +5,18 @@ import './App.css'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Home from './components/home/Home'
+import Contact from './components/contact/Contact'
 
 function App() {
-  const [count, setCount] = usejState(0)
+  const [count, setCount] = useState(0)
 
   return (
     <>
-  ;
+  <Home/>
+  <Contact/>
+  <Footer/>
+  <Header/>
+  
       
     </>
   )
